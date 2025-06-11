@@ -1,0 +1,5 @@
+{
+  "port": 4001,
+  "clientPort": 8081,
+  "jwtPassword": "1234"
+}

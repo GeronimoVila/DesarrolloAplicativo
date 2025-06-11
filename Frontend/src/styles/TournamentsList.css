@@ -1,0 +1,52 @@
+/* Estilos generales para el contenedor de la lista */
+.tournament-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f2d1d1, #f0b0b0, #f08e8e);
+  }
+  
+  /* Estilos para el contenedor principal de los torneos */
+  .tournament-list-box {
+    max-width: 100%;
+    width: 400px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos del título */
+  .tournament-list-title {
+    font-size: 24px;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* Mensaje cuando no hay torneos */
+  .no-tournaments {
+    text-align: center;
+    color: #777;
+  }
+  
+  /* Lista de torneos */
+  .tournament-list {
+    list-style-type: disc;
+    margin: 16px;
+    padding-left: 20px;
+  }
+  
+  /* Estilos de los ítems de la lista */
+  .tournament-item {
+    cursor: pointer;
+    padding: 8px;
+    transition: font-weight 0.2s ease;
+  }
+  
+  /* Hover en los ítems */
+  .tournament-item:hover {
+    font-weight: bold;
+  }
+  

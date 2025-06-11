@@ -1,0 +1,85 @@
+.form-card {
+  background-color: #f9f9f9;
+  width: 33%;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.form-header {
+  width: 100%;
+  background-color: #f47822;
+  height: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.form-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 10px;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.form-subtitle {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.form-fields {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-field label {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+.submit-button {
+  background-color: #28a745; /* Color verde */
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
+
+
+.form-success {
+  color: #28a745;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-error {
+  color: #dc3545;
+  text-align: center;
+  font-weight: bold;
+}

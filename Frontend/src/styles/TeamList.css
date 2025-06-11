@@ -1,0 +1,88 @@
+.team-list-container {
+  padding: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.no-teams-message {
+  grid-column: span 3;
+  text-align: center;
+  padding: 24px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-card {
+  position: relative;
+  background: linear-gradient(to bottom right, #ffffff, #f1f1f1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.team-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.team-description,
+.team-manager {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.players-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.players-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.player-item {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.delete-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 8px;
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: #333;
+}

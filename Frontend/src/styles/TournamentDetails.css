@@ -1,0 +1,77 @@
+/* Fondo y centramiento */
+.tournament-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2, #80deea);
+  }
+  
+  /* Contenedor principal del torneo */
+  .tournament-card {
+    max-width: 768px;
+    width: 100%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .tournament-title {
+    font-size: 24px;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* Espaciado entre partidos */
+  .match-list {
+    margin-top: 16px;
+  }
+  
+  /* Estilos para cada partido */
+  .match-card {
+    border: 1px solid #d1d5db;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f3f4f6;
+    margin-bottom: 16px;
+  }
+  
+  /* Títulos de los equipos */
+  .match-teams {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  /* Flexbox para los resultados de los equipos */
+  .match-results {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Estilos de los inputs de resultado */
+  .result-input {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  /* Botón de guardar */
+  .save-button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 12px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+  }
+  
+  .save-button:hover {
+    background-color: #2563eb;
+  }
+  

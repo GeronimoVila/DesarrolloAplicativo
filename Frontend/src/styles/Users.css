@@ -1,0 +1,44 @@
+/* Estilos generales para el contenedor de la página */
+.users-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-top: 40px;
+  }
+  
+  /* Estilos para el título */
+  .users-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #000000; /* color primario */
+  }
+  
+  /* Estilo para el botón de crear usuario */
+  .create-user-btn {
+    background-color: #11ac5c; /* color primario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-user-btn:hover {
+    background-color: #315dbd; /* color secundario para hover */
+  }
+  
+  /* Estilo para el texto dentro del botón */
+  .btn-text {
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Agregar más estilos para el modal, tablas y demás elementos si es necesario */
+  

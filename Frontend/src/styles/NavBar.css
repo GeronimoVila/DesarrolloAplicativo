@@ -1,0 +1,77 @@
+/* Estilos del contenedor principal */
+.navbar-header {
+    font-family: Arial, sans-serif;
+    background-color: rgba(240, 240, 240, 0.8); /* bg-bg-100/20 */
+    height: 80px; /* h-20 */
+    border-bottom: 2px solid #ccc; /* border-b-2 */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px; /* Para espacio lateral */
+  }
+  
+  /* Logo y título */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .navbar-logo img {
+    width: 80px; /* w-20 */
+  }
+  
+  .navbar-logo span {
+    margin-left: 12px; /* ml-3 */
+    font-size: 1.25rem; /* text-xl */
+    font-weight: bold;
+    color: #333; /* text-text-100 */
+  }
+  
+  /* Navegación */
+  .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px; /* gap-3 */
+  }
+  
+  .navbar-link {
+    padding: 4px 20px; /* py-1 px-5 */
+    font-weight: bold;
+    text-decoration: none;
+    color: #333; /* text-text-100 */
+    transition: color 0.2s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #555; /* text-text-200 */
+  }
+  
+  /* Botón cerrar sesión */
+  .navbar-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #d41111; /* bg-primary-300 */
+    color: white;
+    padding: 4px 12px; /* py-1 px-3 */
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .navbar-button:hover {
+    background-color: #0056b3; /* bg-primary-200 */
+  }
+  
+  .navbar-button svg {
+    margin-left: 4px; /* ml-1 */
+    width: 16px; /* w-4 */
+    height: 16px; /* h-4 */
+  }
+  

@@ -1,0 +1,96 @@
+/* Estilo general para el contenedor de la sección */
+.notfound-section {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Contenedor principal */
+  .notfound-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+  }
+  
+  /* Icono de advertencia */
+  .notfound-icon-container {
+    display: inline-block;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff7a5a; /* color primario */
+    background-color: #ebf8ff; /* color de fondo */
+    border-radius: 50%;
+  }
+  
+  .notfound-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  /* Título principal */
+  .notfound-title {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333; /* texto oscuro */
+  }
+  
+  /* Mensaje */
+  .notfound-message {
+    margin-top: 16px;
+    color: #555; /* texto más claro */
+    font-size: 16px;
+  }
+  
+  /* Botones */
+  .notfound-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  
+  .notfound-back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notfound-back-btn:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .notfound-arrow-icon {
+    width: 20px;
+    height: 20px;
+    transform: rotate(0deg); /* Ajustar para RTL si es necesario */
+  }
+  
+  .notfound-home-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff7a5a; /* color primario */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notfound-home-btn:hover {
+    background-color: #ff6f4a; /* color secundario */
+  }
+  
